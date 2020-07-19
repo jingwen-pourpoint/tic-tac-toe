@@ -2,7 +2,7 @@ package com;
 
 import java.util.Scanner;
  
-public class TicTacToe {
+public class TicTacToeFinal {
 
     private char[][] board;
     private boolean firstPlayer = true;
@@ -125,7 +125,7 @@ public class TicTacToe {
     }
 
     public static void main(String[] args) {
-        new TicTacToe().play();
+        new TicTacToeFinal().play();
     }
 }
 
